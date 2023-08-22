@@ -1,0 +1,60 @@
+.hidden {
+  display: none;
+}
+
+.nav {
+  background-color: rgb(76, 175, 80, 0.3);
+}
+
+.menu-personalizado .nav-link {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+  background-color: rgb(76, 175, 80, 0.3);
+
+}
+
+.container4 {
+
+
+  background: black;
+  color: white;
+  border-radius: 1em;
+  padding: 1em;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background: rgba(76, 175, 80, 0.2)
+  
+}
+
+.pesquisa{
+  margin-top: 20px;
+}
+
+.form-novo-cliente{
+  margin-top: 60px; 
+  margin-left: 40px;
+  margin-right: 40px;
+  
+}
+
+.body-novo-cliente{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(169, 238, 169);
+}
+
+.container-novo-cliente {
+ 
+ 
+  border: 55px solid rgb(98, 128, 98);
+  border-radius: 15px;
+  background-color: #dddddd;
+}

@@ -1,0 +1,10 @@
+# Arquivos de configuração específicos do sistema
+.idea/
+.vscode/
+
+# Logs e arquivos de saída
+*.log
+npm-debug.log*
+
+# Pasta de dependências do Node.js
+node_modules/
