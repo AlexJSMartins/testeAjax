@@ -17,7 +17,7 @@
         <strong>Alunos</strong>
       </a>
       <ul class="dropdown-menu dropdown-menu-dark">
-        <li><a class="dropdown-item" href="src/pages/alunos/novo-cliente.php">Novo</a></li>
+        <li><a class="dropdown-item" href="./novo-cliente.php">Novo</a></li>
         <li>
           <hr class="dropdown-divider">
         </li>

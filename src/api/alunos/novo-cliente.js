@@ -33,7 +33,7 @@ $(function() {
                 success: function(response) {
                   if (response.success) {
                     alert('Cliente criado com sucesso!');
-                    window.location.href='index.php';
+                    window.location.href='./consultar-aluno.php';
                     $('form')[0].reset(); // Limpar os campos do formulário
                     
                   } else {

@@ -31,7 +31,7 @@ $(function() {
 
     // Adicionar evento de clique ao botão "Voltar"
     $('#voltar').on('click', function() {
-      window.location.href = 'index.php';
+      window.location.href = './consultar-aluno.php';
     });
   } else {
     // Exibir uma mensagem de cliente não encontrado, se necessário
@@ -154,7 +154,7 @@ function excluirCliente(cliente) {
         $('#clientes-table tbody tr[data-id="' + cliente.id + '"]').remove();
 
          // Redirecionar para a tela inicial
-         window.location.href = 'index.php';
+         window.location.href = '../../index.php';
       },
       error: function(error) {
         // Ocorreu um erro na exclusão, trate-o adequadamente

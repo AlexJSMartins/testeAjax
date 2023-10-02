@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../style.css">
-    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../../../node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <title>Cadastrar Cliente</title>
 </head>
@@ -53,9 +53,9 @@
 
     </div>
 
-    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="../api/novo-cliente.js"></script>
-    <script src="../api/detalhe-cliente.js"></script>
+    <script src="../../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../api/alunos/novo-cliente.js"></script>
+    <script src="../../api/alunos/detalhe-cliente.js"></script>
 </body>
 
 </html>
